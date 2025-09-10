@@ -20,6 +20,7 @@ int main()
     cout << x << " / " << y << " = " << x / y << " with a remainder of " << x%y << endl;
     cout << "Square Root of " << x << " is " << sqrt(x) << endl;
     cout << "Square Root of " << y << " is " << sqrt(y) << endl;
+    cout << x << " to the power of " << y << " is " << pow(x,y) << endl;
 
     return 0;
 }
